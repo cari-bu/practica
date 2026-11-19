@@ -44,11 +44,11 @@ class CalculadoraSueldo {
     double sueldoExtra = 0;
     double horasExtra = 0;
 
-    // Condición 1: Hasta 48 horas se paga tarifa normal
+    
     if (horas <= 48) {
       sueldoNormal = horas * pagoHora;
     } else {
-      // Condición 2: Más de 48 horas, las adicionales se pagan con 50% más (1.5x)
+      
       horasExtra = horas - 48;
       sueldoNormal = 48 * pagoHora;
       sueldoExtra = horasExtra * (pagoHora * 1.5);

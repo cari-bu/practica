@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:practica/screem/combustible_screen.dart';
 import 'package:practica/screem/descuento_screen.dart';
+import 'package:practica/screem/sreem_formulario.dart';
 import 'package:practica/screem/sueldo_screen.dart';
 import 'screem/promedio.dart';
 
@@ -20,7 +21,7 @@ class MiApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
         useMaterial3: true,
       ),
-      home: const ScreenFormulario(),
+      home: ScreenFormulario(),
     );
   }
 }
